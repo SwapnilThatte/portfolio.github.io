@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <link rel="stylesheet" href="/public/CSS/global.css">
+    <link rel="stylesheet" href="/public/CSS/projects.css">
+
+    <script src="/public/JS/project.js" defer></script>
+
+    <title>Projects</title>
+</head>
+<body>
+        <div class="navbar" id="navbar">
+        <div class="navbar-left">
+            <div class="navbar-logo">Swapnil Thatte</div>
+        </div>
+
+        <div class="navbar-right">
+            <div class="navbar-links">
+                <a href="index.html" class="navbar-link">
+                    Home
+                </a>
+                <a href="#footer" class="navbar-link">
+                    Contact
+                </a>
+                <a href="projects.html" class="navbar-link">
+                    Projects
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-container">
+        <div class="projectWrapper">
+            <div class="projectHeading">My Projects</div>
+
+            <div class="projects">
+
+                <div class="project">
+                    <div class="projectTitle">Online Compiler</div>
+                    <div class="lables">
+                        <div class="lable">Javascript</div>
+                        <div class="lable">Node JS</div>
+                        <div class="lable">Express JS</div>
+                    </div>
+                    <div class="projectLink">Github: <a href="https://github.com/SwapnilThatte/online-compiler" target="_blank" class="link">Online Compiler</a></div>
+                    <div class="projectDesc">
+                        This app allows users to write code on online code editor and execute it remotely. This application is very useful for users working on computer wchich does not support execution of certain programming languages.
+                        <br><br>
+                        The app uses <strong>NodeJS and ExpressJS as backend framework and EJS as templating engine</strong>.
+                        The website uses <strong>FS and Child-Process module</strong> of node js to create program file and to execute them.
+                    </div>
+                </div>
+
+
+                 <div class="project">
+                    <div class="projectTitle">Blog Website</div>
+                    <div class="lables">
+                        <div class="lable">Node JS</div>
+                        <div class="lable">Express JS</div>
+                        <div class="lable">MongoDB</div>
+                    </div>
+                    <div class="projectLink">Github: <a href="#" class="link">Blog Website</a></div>
+                    <div class="projectDesc">
+                        This app allows user to create, post, update, delete blogs. A user has to register inorder to post blogs.
+                        <br><br>
+                        The website uses <strong>NodeJS and ExpressJS</strong> as backend framework. <strong>MongoDB is used as database</strong> to store all the user information.
+                        Critical user data such as <strong>passwords are encrypted using bcryptjs</strong>. 
+                    </div>
+                </div>
+
+                 <div class="project">
+                    <div class="projectTitle">News Website</div>
+                    <div class="lables">
+                        <div class="lable">Javascript</div>
+                        <div class="lable">React JS</div>
+                        <div class="lable">Axios</div>
+                    </div>
+                    <div class="projectLink">Github: <a href="#" class="link">News Website</a></div>
+                    <div class="projectDesc">
+                        This news website allows users to read fresh news. User can choose from muliple categories of news like internatioal, finance, sports, etc.
+                        <br><br>
+                        The app is a <strong>react application</strong>. It uses NewsAPI from NewsAPI.org to fetch news. The API requests are made using <strong>Axios library</strong> of Javascript.
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="projectTitle">Portfolio Website</div>
+                    <div class="lables">
+                        <div class="lable">HTML</div>
+                        <div class="lable">CSS</div>
+                        <div class="lable">Javascript</div>
+                    </div>
+                    <div class="projectLink">Github: <a href="#" class="link">Portfolio Website</a></div>
+                    <div class="projectDesc">
+                        This Portfolio website showcases my web developement skills. It has links to all my projects and displays my skills.
+                        This website is <strong>hosted on github</strong>.
+                        <br><br>
+                        This website is static website and build using <strong>HTML, CSS and JavaScript</strong>.
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <div class="projectTitle">UserAuth API</div>
+                    <div class="lables">
+                        <div class="lable">MERN</div>
+                        <div class="lable">Javascript</div>
+                    </div>
+                    <div class="projectLink">Github: <a href="https://github.com/SwapnilThatte/userAuth-API" target="_blank" class="link">UserAuth API</a></div>
+                    <div class="projectDesc">
+                        This is a REST API built using <strong>Node JS and Express JS</strong> it has <strong>MongoDB as database</strong>.
+                        The API uses <strong>helmet library</strong> for secured headers. All the sensetive user data is encrypted and then stored in database using <strong>bcryptjs</strong>.
+                        The API uses <strong>JWT(JSON Web Tokens) Authentication</strong> to authenticate users. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="footer">
+        
+        <div class="footer-container">
+            <div class="footer-author">This website is built by <span class="strong">Swapnil Thatte</span></div>
+            <div class="footer-copyright"></div>
+        </div>
+        
+        <div class="footer-contacts">
+            <div class="footer-contact">
+                <a href="https://www.linkedin.com/in/swapnil-thatte-80b90621b/" target="_blank">
+                    <img src="/images/linkedIn image.PNG" class="footer-contact-image" alt="">
+                </a>
+
+            </div>
+
+            <div class="footer-contact">
+                <a href="https://github.com/SwapnilThatte" target="_blank">
+                    <img src="/images/github image.jpg" class="footer-contact-image" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+.navbar {
+    background-color: rgba(10, 10, 10, 0.674) !important;
+}
+
+.project-container {
+    margin: 6rem 4rem;
+}
+
+.projectHeading {
+    color: var(--color-dark-secondary);
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    margin: 1.6rem 1.4rem;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 20px 4px rgba(177, 177, 177, 0.803);
+}
+.project:hover {
+    box-shadow: 0 0 20px 4px rgba(95, 95, 95, 0.803);
+}
+
+.projectTitle {
+    font-size: 2.6rem;
+    padding: 8px 0;
+}
+
+.lables {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.lable {
+    font-size: larger;
+    margin: 5px 10px;
+    background-color: rgb(33, 141, 56);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 2rem;
+}
+.lable:hover {
+    cursor: pointer;
+    background-color: rgb(24, 112, 43);
+}
+
+.projectLink {
+    font-size: larger;
+    margin-left: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(22, 88, 221);
+    font-weight: 600;
+}
+
+.projectDesc {
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+@media screen and (max-width : 600px) {
+    .navbar {
+        position: initial;
+    }
+    .project-container {
+        padding-top: 3rem;
+    }
+    .projectHeading {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .project-container {
+        margin: auto 20px;
+    }
+    .project {
+        margin: 1.8rem 0;
+        
+        width: max-content;
+    }
+}
