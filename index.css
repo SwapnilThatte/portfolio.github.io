@@ -1,0 +1,136 @@
+/********* MAIN-SECTION **********/
+
+.main-content {
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 0rem;
+    padding: 6rem 1.6rem;
+    background: url("./images/background image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.decoration {
+    height: 10px;
+    width: 140px;
+    display: flex;
+}
+.decoration-orange {
+    width: 50%;
+    background-color: orangered;
+}
+.decoration-blue {
+    width: 50%;
+    background-color: blue;
+}
+.main-typing {
+    color: var(--color-dark-secondary);
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.main-intro-desc {
+    padding-left: 0.2rem;
+    font-size: 1.6rem;
+}
+
+/********* SKILLS SECTION **********/
+.skills-section {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height:max-content;
+    padding: 5rem 4rem;
+}
+
+.skills-sectionHeading {
+    color: var(--color-dark-secondary);
+    font-size: 3.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 1.6rem 2rem;
+    padding: 0.6rem;
+    border: none;
+    box-shadow: 0 0 20px 8px rgba(177, 177, 177, 0.561);
+    border-radius: 10px;
+    width: 240px;
+    height: 380px;
+    cursor: pointer;
+}
+.skill:hover {
+    box-shadow: 0 0 20px 8px rgba(96, 96, 96, 0.561);
+}
+
+.skill-top {
+    width: 100%;
+    height: 60%;
+    margin: auto;
+}
+
+.skill-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.skill-mid {
+    margin: 40px 10px;
+    font-size: xx-large;
+    color: var(--color-dark-secondary);
+}
+
+
+@media screen and (max-width : 600px) {
+    
+    .decoration {
+        display: none;
+    }
+    .main-content {
+        margin-top: 0;
+        padding: 10rem 0;
+    }
+    .container {
+        margin: 0;
+        padding: 10rem 10px;
+    }
+    .main-typing {
+        padding: 0;
+        font-size: 4.5rem;
+    }
+    .main-intro-desc {
+        font-size: x-large;
+    }
+    .skills-section {
+        margin: 0;
+        padding: 5rem 0.5rem;
+    }
+    .skills-sectionWrapper {
+        margin: 0;
+        padding: 0;
+    }
+    .skills {
+        margin-right: 0;
+        padding: 0;
+    }
+    .skill {
+        width: 80%;
+        height: 20%;
+        margin: 2rem auto;
+    }
+}
