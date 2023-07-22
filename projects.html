@@ -9,17 +9,21 @@
     <link rel="stylesheet" href="./global.css">
     <link rel="stylesheet" href="./projects.css">
 
-    <script src="/public/JS/project.js" defer></script>
+    <!-- <script src="/public/JS/project.js" defer></script> -->
 
     <title>Projects</title>
 </head>
 <body>
+         
+    <noscript>Please Enable JavaScript from your browser settings</noscript>
+    
         <div class="navbar" id="navbar">
         <div class="navbar-left">
-            <div class="navbar-logo">Swapnil Thatte</div>
+            <div class="navbar-logo">SWAPNIL THATTE</div>
+            <!-- <span class="material-symbols-outlined hamburger" id="hamburger">menu</span> -->
         </div>
 
-        <div class="navbar-right">
+        <div class="navbar-right" id="navbar-right">
             <div class="navbar-links">
                 <a href="index.html" class="navbar-link">
                     Home
@@ -30,15 +34,98 @@
                 <a href="projects.html" class="navbar-link">
                     Projects
                 </a>
+                <a href="publications.html" class="navbar-link">
+                    Publications
+                </a>
+                <a href="experience.html" class="navbar-link">
+                    Experience
+                </a>
             </div>
         </div>
     </div>
 
+
     <div class="project-container">
         <div class="projectWrapper">
-            <div class="projectHeading">My Projects</div>
+            <div class="heading">My Projects</div>
 
             <div class="projects">
+
+                <div class="project">
+                    <div class="projectTitle">Physics Informed Neural Network Approach to Solve System of Partial Differential Equations</div>
+                    <div class="lables">
+                        <div class="lable">Pytorch</div>
+                        <div class="lable">Numpy</div>
+                        <div class="lable">Python</div>
+                        <div class="lable">Matplotlib</div>
+                        <div class="lable">Deep Learning</div>
+                        <div class="lable">Neural Networks</div>
+                    </div>
+                    <!-- <div class="projectLink">Github: <a href="https://github.com/SwapnilThatte/online-compiler" target="_blank" class="link">Online Compiler</a></div> -->
+                    <div class="projectDesc">
+                        The project aims to solve system of partial differential equations using deep learning.
+                        <!-- This app allows users to write code on online code editor and execute it remotely. This application is very useful for users working on computer wchich does not support execution of certain programming languages.
+                        
+                        The app uses <strong>NodeJS and ExpressJS as backend framework and EJS as templating engine</strong>.
+                        The website uses <strong>FS and Child-Process module</strong> of node js to create program file and to execute them. -->
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectTitle">Detection of Distributed Denial of Service (DDoS) Attack using Machine Learning and Deep Learning Algorithms</div>
+                    <div class="lables">
+                        <div class="lable">Tensorflow</div>
+                        <div class="lable">Numpy</div>
+                        <div class="lable">Python</div>
+                        <div class="lable">Matplotlib</div>
+                        <div class="lable">Deep Learning</div>
+                        <div class="lable">Neural Networks</div>
+                    </div>
+                    <div class="projectLink">Link : <a href="https://www.ijera.com/papers/vol13no4/1304219224.pdf" target="_blank" class="link">Research Paper</a></div>
+                    <div class="projectDesc">
+                        Compared Ensemble learning, deep learning and machine learning algorithms on the basis of various performance metrics like Accuracy, Precision, Recall and F1 Score.
+
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="projectTitle">Pixel Lab</div>
+                    <div class="lables">
+                        <div class="lable">Tensorflow</div>
+                        <div class="lable">Generative AI</div>
+                        <div class="lable">Python</div>
+                        <div class="lable">Matplotlib</div>
+                        <div class="lable">Deep Learning</div>
+                        <div class="lable">Convolutional Neural Network (CNN)</div>
+                        <!-- <div class="lable"></div> -->
+                    </div>
+                    <div class="projectLink">Link : <a href="https://github.com/SwapnilThatte/Pixel-Lab" target="_blank" class="link">Github</a></div>
+                    <div class="projectDesc">
+                        <ul>
+                            <li>The web application have features like Image Super Resolution, Generating Image from Text Prompt <span style="color: orangered;">**More features are under development</span></li>
+                            <li><strong>Image Generation using Text Prompt</strong> : for this feature <strong>Stable Diffusion</strong> model is used</li>
+                            <li><strong>Image Super Resolution</strong> : for this feature <strong>ESRGAN model</strong> is used</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="projectTitle">Quick Snippets</div>
+                    <div class="lables">
+                        <div class="lable">Javascript</div>
+                        <div class="lable">Node JS</div>
+                        <div class="lable">Azure DevOps</div>
+                        <!-- <div class="lable">Express JS</div> -->
+                    </div>
+                    <div class="projectLink">Links: <a href="https://github.com/SwapnilThatte/quick-snippets" target="_blank" class="link">Github</a> .  <a href="https://marketplace.visualstudio.com/items?itemName=SwapnilThatte.quicksnippets" class="link">VS Code Marketplace</a></div>
+                    <div class="projectDesc">
+                        <ul>
+                            <li>Developed and published VS Code Extension with <strong> 5 Star review </strong> and  <strong>30 downloads </strong></li>
+                            <li>Deployed on Microsoft Azure Platform</li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
 
                 <div class="project">
                     <div class="projectTitle">Online Compiler</div>
@@ -53,54 +140,6 @@
                         <br><br>
                         The app uses <strong>NodeJS and ExpressJS as backend framework and EJS as templating engine</strong>.
                         The website uses <strong>FS and Child-Process module</strong> of node js to create program file and to execute them.
-                    </div>
-                </div>
-
-
-                 <div class="project">
-                    <div class="projectTitle">Blog Website</div>
-                    <div class="lables">
-                        <div class="lable">Node JS</div>
-                        <div class="lable">Express JS</div>
-                        <div class="lable">MongoDB</div>
-                    </div>
-                    <div class="projectLink">Github: <a href="#" class="link">Blog Website</a></div>
-                    <div class="projectDesc">
-                        This app allows user to create, post, update, delete blogs. A user has to register inorder to post blogs.
-                        <br><br>
-                        The website uses <strong>NodeJS and ExpressJS</strong> as backend framework. <strong>MongoDB is used as database</strong> to store all the user information.
-                        Critical user data such as <strong>passwords are encrypted using bcryptjs</strong>. 
-                    </div>
-                </div>
-
-                 <div class="project">
-                    <div class="projectTitle">News Website</div>
-                    <div class="lables">
-                        <div class="lable">Javascript</div>
-                        <div class="lable">React JS</div>
-                        <div class="lable">Axios</div>
-                    </div>
-                    <div class="projectLink">Github: <a href="#" class="link">News Website</a></div>
-                    <div class="projectDesc">
-                        This news website allows users to read fresh news. User can choose from muliple categories of news like internatioal, finance, sports, etc.
-                        <br><br>
-                        The app is a <strong>react application</strong>. It uses NewsAPI from NewsAPI.org to fetch news. The API requests are made using <strong>Axios library</strong> of Javascript.
-                    </div>
-                </div>
-
-                <div class="project">
-                    <div class="projectTitle">Portfolio Website</div>
-                    <div class="lables">
-                        <div class="lable">HTML</div>
-                        <div class="lable">CSS</div>
-                        <div class="lable">Javascript</div>
-                    </div>
-                    <div class="projectLink">Github: <a href="#" class="link">Portfolio Website</a></div>
-                    <div class="projectDesc">
-                        This Portfolio website showcases my web developement skills. It has links to all my projects and displays my skills.
-                        This website is <strong>hosted on github</strong>.
-                        <br><br>
-                        This website is static website and build using <strong>HTML, CSS and JavaScript</strong>.
                     </div>
                 </div>
 

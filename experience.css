@@ -1,12 +1,19 @@
-
 .project-container {
     margin: 2rem;
+    margin-top: 0;
+}
+
+.position {
+    margin: 0px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    /* background-color: rebeccapurple; */
 }
 
 .projectHeading {
     color: var(--color-dark-secondary);
-    font-size: 4rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .projects {
@@ -18,18 +25,20 @@
 .project {
     /* line-height: 0!important; */
     width: 48%;
-    margin: 1rem 0;
+    margin: 0rem 0;
     border-radius: 10px;
     padding: 0.2rem 1rem;
     box-shadow: 0 0 10px 1px rgba(177, 177, 177, 0.803);
 }
+
 .project:hover {
     box-shadow: 0 0 10px 2px rgba(95, 95, 95, 0.803);
 }
 
 .projectTitle {
-    font-size: 1.6rem;
-    padding: 8px 0;
+    font-size: 1.4rem;
+    color: rgb(44, 44, 44);
+    /* padding: 8px 0; */
 }
 
 .lables {
@@ -42,16 +51,13 @@
 
 .lable {
     /* font-size: 1rem; */
-    margin: 2px 10px;
-    background-color: rgb(33, 141, 56);
-    color: white;
+    /* margin: 2px 10px; */
+    background-color: rgb(238, 238, 238);
+    color: rgb(39, 39, 39);
     padding: 1px 10px;
     border-radius: 2rem;
 }
-.lable:hover {
-    cursor: pointer;
-    background-color: rgb(24, 112, 43);
-}
+
 
 .projectLink {
     font-size: larger;
@@ -68,16 +74,18 @@
     margin-top: 10px;
     margin-left: 1rem;
     margin-bottom: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 @media screen and (max-width : 600px) {
     .navbar {
         position: initial;
     }
+
     .project-container {
         padding-top: 3rem;
     }
+
     .projectHeading {
         font-size: 2.8rem;
         font-weight: 600;
@@ -87,9 +95,10 @@
     .project-container {
         margin: auto 20px;
     }
+
     .project {
         margin: 1.8rem 0;
-        
+
         width: max-content;
     }
 }
